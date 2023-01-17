@@ -3,18 +3,19 @@
     flex-direction: row;
     color: white;
     justify-content: center;
-    height: 300px;
+    height: 150px;
     text-align: center;
 }
 
 .box1 {
     display: flex;
     width: 70px;
-    height: 50px;
+    height: 45px;
     background-color: rgb(124, 10, 231);
     align-self: center;
     justify-content: center;
     align-items: center;
+    border-top: 35px solid;
 }
 
 .box2 {
@@ -22,9 +23,12 @@
     justify-content: center;
     align-items: center;
     width: 90px;
-    height: 75px;
+    height: 65px;
     background-color: rgb(57, 129, 129);
     align-self: center;
+    font-size: 1.3rem;
+    align-self: center;
+    border-top: 25px solid;
 }
 
 .box3 {
@@ -32,9 +36,10 @@
     justify-content: center;
     align-items: center;
     width: 150px;
-    height: 120px;
+    height: 100px;
     background-color: rgb(44, 37, 95);
     align-self: center;
+    font-size: 1.8rem;
 }
 
 .box4 {
@@ -42,9 +47,11 @@
     justify-content: center;
     align-items: center;
     width: 90px;
-    height: 75px;
+    height: 65px;
     background-color: rgb(201, 81, 37);
     align-self: center;
+    font-size: 1.3rem;
+    border-top: 25px solid;
 }
 
 .box5 {
@@ -54,5 +61,6 @@
     background-color: rgb(90, 130, 10);
     align-self: center;
     width: 70px;
-    height: 50px;
+    height: 45px;
+    border-top: 35px solid;
 }
