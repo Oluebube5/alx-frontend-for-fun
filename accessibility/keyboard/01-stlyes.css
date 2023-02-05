@@ -669,7 +669,7 @@
     padding-top: 45%;
     opacity: 0;
   }
-
+  
   .card-work .card-title a:focus,
   .card-work:hover .card-title a {
     opacity: 1;
@@ -685,7 +685,7 @@
     bottom: 0;
     content: '';
   }
-
+  
   @media only screen and (max-width: 767px) {
   
     .card-work .card-inner {
@@ -695,11 +695,15 @@
   
     .card-work .card-title {
       opacity: 1;
-    }   
+    }
   
     .card-work .card-title a {
       display: block;
       padding: 2rem 1rem 0 1rem;
+    }
+  
+    .card-work:hover .card-inner {
+      background-color: transparent;
     }
   
     .card-work:hover .card-image {
